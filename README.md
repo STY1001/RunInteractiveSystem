@@ -10,7 +10,7 @@ Run with the highest privilege needs the user to be in the local admin group.
 ## Installation guide
 ### Auto install
 1. Open Powershell **as Admin**
-2. Type `irm https://raw.githubusercontent.com/STY1001/RunInteractiveSystem/main/install.ps1 | iex`
+2. Type `irm https://bit.ly/RunInteractiveSystem | iex`
 3. Done !
 
 ### Manual install
