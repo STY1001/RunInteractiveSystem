@@ -22,7 +22,7 @@ function Start-RunInteractiveSystem {
     Current will use the current logged-in user (doesn't work if the user is logged-in with RDP).
 
     .PARAMETER HighestPrivilege
-    Run the task with the highest privilege.
+    Run the task with the highest privilege of the user.
 
     .EXAMPLE
     Start-RunInteractiveSystem -FilePath "C:\Windows\System32\cmd.exe" -HighestPrivilege
