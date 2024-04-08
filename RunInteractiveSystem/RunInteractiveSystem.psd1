@@ -12,8 +12,8 @@
     PrivateData = @{
         PSData = @{
             Tags = @()
-            LicenseUri = ''
-            ProjectUri = ''
+            LicenseUri = 'https://github.com/STY1001/RunInteractiveSystem/blob/main/LICENCE'
+            ProjectUri = 'https://github.com/STY1001/RunInteractiveSystem'
             ReleaseNotes = '
             - 1.0:
                 - Initial release of RunInteractiveSystem module.'
