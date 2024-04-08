@@ -1,5 +1,5 @@
 @{
-    ModuleName = 'RunInteractiveSystem'
+    RootModule = 'RunInteractiveSystem.psm1'
     ModuleVersion = '1.0'
     Author = 'STY1001'
     CompanyName = 'STY Inc.'
