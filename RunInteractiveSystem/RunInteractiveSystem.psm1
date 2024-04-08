@@ -1,7 +1,3 @@
-# RunInteractiveSystem by STY1001
-# Version: 1.0
-# Description: A module that allows you to run interactive app from the system user using task scheduler.
-
 function Start-RunInteractiveSystem {
     <#
     .SYNOPSIS
