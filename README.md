@@ -7,7 +7,7 @@ The current logged-in user needs to be in the local group that you select otherw
 
 Run with the highest privilege needs the user to be in the local admin group.
 
-## Install guide
+## Installation guide
 ### Auto install
 1. Open Powershell **as Admin**
 2. Type `irm https://raw.githubusercontent.com/STY1001/RunInteractiveSystem/main/install.ps1 | iex`
