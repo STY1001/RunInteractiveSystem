@@ -7,6 +7,11 @@ The current logged-in user needs to be in the local group that you select otherw
 
 Run with the highest privilege needs the user to be in the local admin group.
 
+> You need to set ExecutionPolicy to Bypass with:
+> - Set-ExecutionPolicy -ExecutionPolicy Bypass
+> - Powershell -ExecutionPolicy Bypass
+
+
 ## Installation guide
 ### Auto install
 1. Open Powershell **as Admin**
@@ -19,10 +24,6 @@ Run with the highest privilege needs the user to be in the local admin group.
 3. Done !
 
 ## Usage
-
-> You need to set ExecutionPolicy to Bypass with:
-> - Set-ExecutionPolicy -ExecutionPolicy Bypass
-> - Powershell -ExecutionPolicy Bypass
 
 `Start-RunInteractiveSystem [-FilePath] <String> [[-Arguments] <String>] [[-RunAs] <Users|Admins|Current>] [-HighestPrivilege]`
 
