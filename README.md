@@ -20,6 +20,10 @@ Run with the highest privilege needs the user to be in the local admin group.
 
 ## Usage
 
+> You need to set ExecutionPolicy to Bypass with:
+> - Set-ExecutionPolicy -ExecutionPolicy Bypass
+> - Powershell -ExecutionPolicy Bypass
+
 `Start-RunInteractiveSystem [-FilePath] <String> [[-Arguments] <String>] [[-RunAs] <Users|Admins|Current>] [-HighestPrivilege]`
 
 `-FilePath` : Path of the program you want to execute
