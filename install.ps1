@@ -2,6 +2,7 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     Write-Host "Please run this script as admin."
     Exit
 }
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
 $zipurl = 'https://github.com/STY1001/RunInteractiveSystem/releases/latest/download/RunInteractiveSystem.zip'
 Invoke-WebRequest -Uri $zipurl -OutFile "$env:TEMP\RunInteractiveSystem.zip"
 $modulepath = "$env:ProgramFiles\WindowsPowerShell\Modules\RunInteractiveSystem"
